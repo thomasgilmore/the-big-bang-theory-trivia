@@ -43,5 +43,5 @@ $('.3B').on('click', function() { wrongAnswer('.3B', '.4B'); });
 $('.4B').on('click', function() { rightAnswer('.4B', '.3B'); });
 $('.Caltech').on('click', function() { rightAnswer('.Caltech', '.Stanford'); });
 $('.Stanford').on('click', function() { wrongAnswer('.Stanford', '.Caltech'); });
-$('.Cynthia-Fee').on('click', function() { wrongAnswer('.Cynthia-Fee', '.The-Rembrandts'); });
-$('.The-Rembrandts').on('click', function() { rightAnswer('.The-Rembrandts', '.Cynthia-Fee'); });
+$('.Leonard').on('click', function() { wrongAnswer('.Leonard', '.Sheldon'); });
+$('.Sheldon').on('click', function() { rightAnswer('.Sheldon', '.Leonard'); });
