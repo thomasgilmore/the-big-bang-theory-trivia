@@ -27,8 +27,8 @@ const rightAnswer = (classOfButtonClicked, classOfOtherButton) => {
 
 $('.Mayim-Bialik').on('click', function() { rightAnswer('.Mayim-Bialik', '.Johnny-Galecki'); });
 $('.Johnny-Galecki').on('click', function() { wrongAnswer('.Johnny-Galecki', '.Mayim-Bialik'); });
-$('.Rotate').on('click', function() { wrongAnswer('.Rotate', '.Pivot'); });
-$('.Pivot').on('click', function() { rightAnswer('.Pivot', '.Rotate'); });
+$('.Dr-DNA').on('click', function() { wrongAnswer('.Dr-DNA', '.Professor-Proton'); });
+$('.Professor-Proton').on('click', function() { rightAnswer('.Professor-Proton', '.Dr-DNA'); });
 $('.twenty').on('click', function() { rightAnswer('.twenty', '.fifteen'); });
 $('.fifteen').on('click', function() { wrongAnswer('.fifteen', '.twenty'); });
 $('.A-city-bus').on('click', function() { wrongAnswer('.A-city-bus', '.A-job-title'); });
