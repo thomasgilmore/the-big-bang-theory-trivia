@@ -33,8 +33,8 @@ $('.Nebraska').on('click', function() { rightAnswer('.Nebraska', '.Alabama'); })
 $('.Alabama').on('click', function() { wrongAnswer('.Alabama', '.Nebraska'); });
 $('.The-Force-and-Luke').on('click', function() { wrongAnswer('.The-Force-and-Luke', '.Lizard-and-Spock'); });
 $('.Lizard-and-Spock').on('click', function() { rightAnswer('.Lizard-and-Spock', '.The-Force-and-Luke'); });
-$('.Cole-Sprouse').on('click', function() { rightAnswer('.Cole-Sprouse', '.Dylan-Sprouse'); });
-$('.Dylan-Sprouse').on('click', function() { wrongAnswer('.Dylan-Sprouse', '.Cole-Sprouse'); });
+$('.Debbie').on('click', function() { rightAnswer('.Debbie', '.Susan'); });
+$('.Susan').on('click', function() { wrongAnswer('.Susan', '.Debbie'); });
 $('.New-York-City').on('click', function() { rightAnswer('.New-York-City', '.Los-Angeles'); });
 $('.Los-Angeles').on('click', function() { wrongAnswer('.Los-Angeles', '.New-York-City'); });
 $('.Ill-Be-There-For-Them').on('click', function() { wrongAnswer('.Ill-Be-There-For-Them', '.Ill-Be-There-For-You'); });
