@@ -41,7 +41,7 @@ $('.Leonard-Hofstadter').on('click', function() { wrongAnswer('.Leonard-Hofstadt
 $('.Howard-Wolowitz').on('click', function() { rightAnswer('.Howard-Wolowitz', '.Leonard-Hofstadter'); });
 $('.3B').on('click', function() { wrongAnswer('.3B', '.4B'); });
 $('.4B').on('click', function() { rightAnswer('.4B', '.3B'); });
-$('.A-yellow-picture-frame').on('click', function() { rightAnswer('.A-yellow-picture-frame', '.A-coat-hook'); });
-$('.A-coat-hook').on('click', function() { wrongAnswer('.A-coat-hook', '.A-yellow-picture-frame'); });
+$('.Caltech').on('click', function() { rightAnswer('.Caltech', '.Stanford'); });
+$('.Stanford').on('click', function() { wrongAnswer('.Stanford', '.Caltech'); });
 $('.Cynthia-Fee').on('click', function() { wrongAnswer('.Cynthia-Fee', '.The-Rembrandts'); });
 $('.The-Rembrandts').on('click', function() { rightAnswer('.The-Rembrandts', '.Cynthia-Fee'); });
