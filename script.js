@@ -35,8 +35,8 @@ $('.The-Force-and-Luke').on('click', function() { wrongAnswer('.The-Force-and-Lu
 $('.Lizard-and-Spock').on('click', function() { rightAnswer('.Lizard-and-Spock', '.The-Force-and-Luke'); });
 $('.Debbie').on('click', function() { rightAnswer('.Debbie', '.Susan'); });
 $('.Susan').on('click', function() { wrongAnswer('.Susan', '.Debbie'); });
-$('.New-York-City').on('click', function() { rightAnswer('.New-York-City', '.Los-Angeles'); });
-$('.Los-Angeles').on('click', function() { wrongAnswer('.Los-Angeles', '.New-York-City'); });
+$('.Soft-Kitty').on('click', function() { rightAnswer('.Soft-Kitty', '.Smelly-Cat'); });
+$('.Smelly-Cat').on('click', function() { wrongAnswer('.Smelly-Cat', '.Soft-Kitty'); });
 $('.Ill-Be-There-For-Them').on('click', function() { wrongAnswer('.Ill-Be-There-For-Them', '.Ill-Be-There-For-You'); });
 $('.Ill-Be-There-For-You').on('click', function() { rightAnswer('.Ill-Be-There-For-You', '.Ill-Be-There-For-Them'); });
 $('.St-James-Perk').on('click', function() { wrongAnswer('.St-James-Perk', '.Central-Perk'); });
