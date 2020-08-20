@@ -39,8 +39,8 @@ $('.Soft-Kitty').on('click', function() { rightAnswer('.Soft-Kitty', '.Smelly-Ca
 $('.Smelly-Cat').on('click', function() { wrongAnswer('.Smelly-Cat', '.Soft-Kitty'); });
 $('.Leonard-Hofstadter').on('click', function() { wrongAnswer('.Leonard-Hofstadter', '.Howard-Wolowitz'); });
 $('.Howard-Wolowitz').on('click', function() { rightAnswer('.Howard-Wolowitz', '.Leonard-Hofstadter'); });
-$('.St-James-Perk').on('click', function() { wrongAnswer('.St-James-Perk', '.Central-Perk'); });
-$('.Central-Perk').on('click', function() { rightAnswer('.Central-Perk', '.St-James-Perk'); });
+$('.3B').on('click', function() { wrongAnswer('.3B', '.4B'); });
+$('.4B').on('click', function() { rightAnswer('.4B', '.3B'); });
 $('.A-yellow-picture-frame').on('click', function() { rightAnswer('.A-yellow-picture-frame', '.A-coat-hook'); });
 $('.A-coat-hook').on('click', function() { wrongAnswer('.A-coat-hook', '.A-yellow-picture-frame'); });
 $('.Cynthia-Fee').on('click', function() { wrongAnswer('.Cynthia-Fee', '.The-Rembrandts'); });
