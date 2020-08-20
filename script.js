@@ -31,8 +31,8 @@ $('.Dr-DNA').on('click', function() { wrongAnswer('.Dr-DNA', '.Professor-Proton'
 $('.Professor-Proton').on('click', function() { rightAnswer('.Professor-Proton', '.Dr-DNA'); });
 $('.Nebraska').on('click', function() { rightAnswer('.Nebraska', '.Alabama'); });
 $('.Alabama').on('click', function() { wrongAnswer('.Alabama', '.Nebraska'); });
-$('.A-city-bus').on('click', function() { wrongAnswer('.A-city-bus', '.A-job-title'); });
-$('.A-job-title').on('click', function() { rightAnswer('.A-job-title', '.A-city-bus'); });
+$('.The-Force-and-Luke').on('click', function() { wrongAnswer('.The-Force-and-Luke', '.Lizard-and-Spock'); });
+$('.Lizard-and-Spock').on('click', function() { rightAnswer('.Lizard-and-Spock', '.The-Force-and-Luke'); });
 $('.Cole-Sprouse').on('click', function() { rightAnswer('.Cole-Sprouse', '.Dylan-Sprouse'); });
 $('.Dylan-Sprouse').on('click', function() { wrongAnswer('.Dylan-Sprouse', '.Cole-Sprouse'); });
 $('.New-York-City').on('click', function() { rightAnswer('.New-York-City', '.Los-Angeles'); });
