@@ -1,6 +1,6 @@
 @media (min-width: 200px) {
     body {
-        background-color: #9c8cd4;
+        background-color: #5da4c0;
     }
 
     .whiteBackground {
@@ -47,8 +47,8 @@
     }
 
     .hover:hover {
-        background-color: #ffdf00;
-        color: black;
+        background-color: #265d7c;
+        color: #d9ecf2;
     }
 
     .hide {
@@ -58,7 +58,7 @@
 
 @media (min-width: 410px) {
     body {
-        background-color: #9c8cd4;
+        background-color: #5da4c0;
     }
 
     .whiteBackground {
@@ -105,8 +105,8 @@
     }
 
     .hover:hover {
-        background-color: #ffdf00;
-        color: black;
+        background-color: #265d7c;
+        color: #d9ecf2;
     }
 
     .hide {
@@ -116,7 +116,7 @@
 
 @media (min-width: 1106px) {
     body {
-        background-color: #9c8cd4;
+        background-color: #5da4c0;
     }
 
     .whiteBackground {
@@ -163,8 +163,8 @@
     }
 
     .hover:hover {
-        background-color: #ffdf00;
-        color: black;
+        background-color: #265d7c;
+        color: #d9ecf2;
     }
 
     .hide {
