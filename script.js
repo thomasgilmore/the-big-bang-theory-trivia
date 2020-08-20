@@ -29,8 +29,8 @@ $('.Mayim-Bialik').on('click', function() { rightAnswer('.Mayim-Bialik', '.Johnn
 $('.Johnny-Galecki').on('click', function() { wrongAnswer('.Johnny-Galecki', '.Mayim-Bialik'); });
 $('.Dr-DNA').on('click', function() { wrongAnswer('.Dr-DNA', '.Professor-Proton'); });
 $('.Professor-Proton').on('click', function() { rightAnswer('.Professor-Proton', '.Dr-DNA'); });
-$('.twenty').on('click', function() { rightAnswer('.twenty', '.fifteen'); });
-$('.fifteen').on('click', function() { wrongAnswer('.fifteen', '.twenty'); });
+$('.Nebraska').on('click', function() { rightAnswer('.Nebraska', '.Alabama'); });
+$('.Alabama').on('click', function() { wrongAnswer('.Alabama', '.Nebraska'); });
 $('.A-city-bus').on('click', function() { wrongAnswer('.A-city-bus', '.A-job-title'); });
 $('.A-job-title').on('click', function() { rightAnswer('.A-job-title', '.A-city-bus'); });
 $('.Cole-Sprouse').on('click', function() { rightAnswer('.Cole-Sprouse', '.Dylan-Sprouse'); });
